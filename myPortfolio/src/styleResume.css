@@ -1,25 +1,157 @@
 header{
-    font-size: 25px ;
-    background-color: rgb(29, 26, 165);
+    font-size: 200% ;
+    background-color: rgb(16, 14, 161);
     display: grid;
     background-origin: padding-box; 
 
 }
 h1{
-    font-size: 40px ;
-    margin-left: 40px;
+    font-size: 150% ;
+    margin-left: 5%;
 }
 h2{
-    font-size: 15px ;
+    font-size: 50% ;
     margin-left: 0px;
 
 }
+#profile-pic{
+    width: 10% ;
+
+
+}
 body{
-
-
-
+    font-size: 100% ;
 
 }
 span{
     margin-left: 100x;
+}
+/* Extra Small and up (Portrait Phones) */
+
+/* Small and up (Landscape Phones) */
+@media (min-width: 576px) {
+    header{
+        font-size: 200% ;
+        background-color: rgb(16, 14, 161);
+        display: grid;
+        background-origin: padding-box; 
+    
+    }
+    h1{
+        font-size: 150% ;
+        margin-left: 5%;
+    }
+    h2{
+        font-size: 50% ;
+        margin-left: 0px;
+    
+    }
+    #profile-pic{
+        width: 10% ;
+    
+    
+    }
+    body{
+        font-size: 100% ;
+    
+    }
+    span{
+        margin-left: 100x;
+    }
+}
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+    header{
+        font-size: 200% ;
+        background-color: rgb(16, 14, 161);
+        display: grid;
+        background-origin: padding-box; 
+    
+    }
+    h1{
+        font-size: 150% ;
+        margin-left: 5%;
+    }
+    h2{
+        font-size: 50% ;
+        margin-left: 0px;
+    
+    }
+    #profile-pic{
+        width: 10% ;
+    
+    
+    }
+    body{
+        font-size: 100% ;
+    
+    }
+    span{
+        margin-left: 100x;
+    }
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+    header{
+        font-size: 200% ;
+        background-color: rgb(16, 14, 161);
+        display: grid;
+        background-origin: padding-box; 
+    
+    }
+    h1{
+        font-size: 150% ;
+        margin-left: 5%;
+    }
+    h2{
+        font-size: 50% ;
+        margin-left: 0px;
+    
+    }
+    #profile-pic{
+        width: 10% ;
+    
+    
+    }
+    body{
+        font-size: 100% ;
+    
+    }
+    span{
+        margin-left: 100x;
+    }
+}
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+    header{
+        font-size: 200% ;
+        background-color: rgb(16, 14, 161);
+        display: grid;
+        background-origin: padding-box; 
+    
+    }
+    h1{
+        font-size: 150% ;
+        margin-left: 5%;
+    }
+    h2{
+        font-size: 50% ;
+        margin-left: 0px;
+    
+    }
+    #profile-pic{
+        width: 10% ;
+    
+    
+    }
+    body{
+        font-size: 100% ;
+    
+    }
+    span{
+        margin-left: 100x;
+    }
 }
