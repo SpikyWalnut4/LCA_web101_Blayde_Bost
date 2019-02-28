@@ -1,37 +1,71 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('Red_space.jpg');
+    background-image: url(../Images/Red_space.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto;
+    background-position: center;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
 }
 
 header{
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
-    background-color: #ffffff;
-    color: #000000;
+    color: #ffffff;
     }
 
-article{
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#art1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-    background-color: #ffffff;
-    color: #200350;
+    width: 90%;
+    height: auto;
+    color: #ffffff;
+    background-color: rgb(55, 56, 55);
     margin-top: 18px;
     margin-bottom: 20px;
     line-height: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    border: 2px solid black;
+    border: 2px solid rgb(34, 34, 34);
     padding: 10px
 }
-
+#art2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 90%;
+    height: 40%;
+    color: #ffffff;
+    background-color: rgb(55, 56, 55);
+    margin-top: 18px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid rgb(34, 34, 34);
+    padding: 10px
+}
+#art3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 90%;
+    height: 40%;
+    color: #ffffff;
+    background-color: rgb(55, 56, 55);
+    margin-top: 18px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid rgb(34, 34, 34);
+    padding: 10px
+}
 footer{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
-    background-color: #ffffff;
     color: #000000;
 }
