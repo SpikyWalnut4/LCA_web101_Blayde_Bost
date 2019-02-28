@@ -1,0 +1,25 @@
+body{
+    margin: 50px 30px 30px;
+    width: 850px;
+    height: 60px;
+}
+
+main{
+    margin: 0 auto;
+    height: 60px;
+    background-image: url();
+    color: rgb(red, green, blue);
+}
+
+section{
+    display: flex;
+    height: 324px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+article{
+    width: 270px;
+    height: 374px;
+    background-color: aqua
+}
