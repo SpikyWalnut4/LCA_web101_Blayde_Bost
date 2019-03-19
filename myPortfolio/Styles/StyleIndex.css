@@ -93,3 +93,10 @@ body {
     letter-spacing: 16px;
     font-style: italic;
   }
+  @keyframes Welcome{
+    grow {background-color: red}
+    25% {background-color: green}
+    50% {background-color: purple}
+    75% {background-color: BLue}
+    100%{background-image:}
+  }
