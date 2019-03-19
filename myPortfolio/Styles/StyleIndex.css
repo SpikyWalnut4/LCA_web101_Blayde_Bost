@@ -93,10 +93,16 @@ body {
     letter-spacing: 16px;
     font-style: italic;
   }
-  @keyframes Welcome{
+  @keyframes welcome{
     grow {background-color: red}
     25% {background-color: green}
     50% {background-color: purple}
     75% {background-color: BLue}
     100%{background-image:}
+  }
+  .welcome-Animate{
+    animation-name: welcome;
+    animation-delay: 2s;
+    animation-duration: 2;
+    animation-iteration-count: infinite;
   }
