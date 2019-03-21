@@ -92,16 +92,33 @@ body {
     color: white;
     letter-spacing: 16px;
     font-style: italic;
+    
   }
+  
   @keyframes welcome{
     grow {background-color: red}
     25% {background-color: green}
     50% {background-color: purple}
     75% {background-color: BLue}
-    100%{background-image:}
+    100%{background-color: yellow}
   }
   .welcome-Animate{
     animation-name: welcome;
+    animation-delay: 2s;
+    animation-duration: 2;
+    animation-iteration-count: infinite;
+  }
+  @keyframes zoomFace{
+    rollIn{left: auto;}
+    25% {size: 75%}
+    50% {size: 45%}
+    75% {size: 85%}
+    90% {size: 20%}
+    100% {size: 100%}
+
+  }
+  .zoomFace-Animate{
+    animation-name: zoomFace;
     animation-delay: 2s;
     animation-duration: 2;
     animation-iteration-count: infinite;
